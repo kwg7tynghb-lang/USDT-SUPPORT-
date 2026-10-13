@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ادعمني عبر USDT</title>
+<style>
+body{font-family:Arial,sans-serif;background:#f2fff6;text-align:center;padding:25px;color:#173b2b}
+.card{background:white;padding:24px;border-radius:18px;max-width:420px;margin:30px auto;box-shadow:0 4px 18px #0001}
+h1{color:#15945b}
+.network{background:#e4f8ec;padding:10px;border-radius:10px}
+.address{overflow-wrap:anywhere;background:#f4f4f4;padding:14px;border-radius:10px;font-size:15px}
+button{background:#15945b;color:white;border:0;border-radius:10px;padding:13px 20px;font-size:16px}
+.note{font-size:13px;color:#666;line-height:1.7}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>💚 ادعمني</h1>
+<p>إذا أردت دعمي، يمكنك إرسال USDT عبر Bybit.</p>
+<p class="network">شبكة الإرسال: TRON (TRC20) فقط</p>
+<h3>عنوان المحفظة</h3>
+<p class="address" id="wallet">TX6V23QpDStN82UaZ79picjRpYnRh5hPRu</p>
+<button onclick="navigator.clipboard.writeText(document.getElementById('wallet').innerText).then(()=>alert('تم نسخ العنوان')).catch(()=>alert('انسخ العنوان يدويًا'))">نسخ عنوان المحفظة</button>
+<p class="note">تأكد من اختيار شبكة TRC20 قبل الإرسال. إرسال العملات عبر شبكة خاطئة قد يؤدي إلى فقدانها.</p>
+</div>
+</body>
+</html>
